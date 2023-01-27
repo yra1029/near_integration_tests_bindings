@@ -1,0 +1,1 @@
+# near_integration_test_bind
