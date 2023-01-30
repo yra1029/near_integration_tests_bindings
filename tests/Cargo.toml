@@ -1,0 +1,15 @@
+[package]
+name = "tests"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dev-dependencies]
+near_test_wrapper_types = { path = "../near_test_wrapper_types" }
+workspaces = {version = "0.7.0"}
+serde_json = "1.0"
+tokio = { version = "1.14", features = ["full"] }
+anyhow = "1.0"
+near-units = "0.2.0"
+
+test_contract = { path = "test_contract"}

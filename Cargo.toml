@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "near_test_wrapper_macro",
+    "near_test_wrapper_types",
+    
+    "tests"
+]
